@@ -1,0 +1,11 @@
+[aria-label="detail-wrapper"] {
+    background-size: cover;
+   
+}
+
+[aria-label='detail-container']{
+    width: min(100% - 2rem, 768px);
+    margin-inline: auto;
+    background: rgb(0,0,0,.7);
+    box-shadow: 0 0 0 100vmax rgb(0,0,0,.7) ;
+}

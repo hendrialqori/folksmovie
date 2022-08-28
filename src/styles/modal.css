@@ -1,0 +1,28 @@
+.show__modal {
+    position: fixed;
+    inset: 3em 8em 3em 8em;
+    background: rgb(0,0,0,.9);
+    z-index: 10;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .5s ease;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.hide__modal {
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media (max-width:768px)  {
+    .show__modal {
+        inset: 2rem 2rem;
+    }
+}
+
+@media (max-width:425px)  {
+    .show__modal {
+        inset: 0;
+    }
+}

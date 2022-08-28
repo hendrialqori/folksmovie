@@ -1,0 +1,13 @@
+[aria-label='main-wrapper'] {
+    background: url(/poster2.jpg);
+    z-index: -1;
+}
+
+
+[aria-label='__container']{
+    width: min(100% - 2rem, 768px);
+    margin-inline: auto;
+    background: rgb(0,0,0,.8);
+    box-shadow: 0 0 0 100vmax rgb(0,0,0,.8) ;
+    overflow: hidden;
+}
